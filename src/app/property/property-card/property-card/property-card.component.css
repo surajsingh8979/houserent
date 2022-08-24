@@ -1,4 +1,14 @@
 .img{
   height: 205px;
+}
+
+.imgwa{
+  overflow: hidden;
+}
+.card:hover img{
+  transform: scale(1.2,1.2);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+
 
 }
