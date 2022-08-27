@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import{HttpClientModule} from '@angular/common/http';
+import { Route } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +9,7 @@ import { PropertyCardComponent } from './property/property-card/property-card/pr
 import { PropertyListComponent } from './property-list/property-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HousingService } from 'src/services/housing.service';
+import { AddPropertyComponent } from './add-property/add-property.component';
 
 
 
@@ -16,8 +18,9 @@ import { HousingService } from 'src/services/housing.service';
     AppComponent,
     PropertyCardComponent,
     PropertyListComponent,
-    NavBarComponent
-  ],
+    NavBarComponent,
+      AddPropertyComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
